@@ -1,0 +1,24 @@
+.page_wrapper {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+.after_button {
+    max-width: 315px;
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+.enter_button {
+    width: 316px;
+    height: 48px;
+    font-size: 16px;
+    border: none;
+    background-color: #4877F2;
+    color: #fff;
+    margin-top: 24px;
+    cursor: pointer;
+
+}

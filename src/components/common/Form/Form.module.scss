@@ -1,0 +1,41 @@
+@import '../../../assets/style/vars.scss';
+.form {
+//   width: 364px;
+    padding: 24px;
+    margin-top: 40px;
+    background-color: #fff;
+    text-align: center;
+    h4 {
+        font-size: $title-size;
+    }
+}
+.button {
+    width: 316px;
+    height: 48px;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 24px;
+    input {
+        margin-top: 16px;
+        width: 316px;
+        height: 48px;
+        border: 1px solid rgba(42, 47, 55, 0.08);
+        border-radius: 4px;
+    }
+}
+.input_main {
+    display: flex;
+    flex-direction: column;
+}
+.reuf_button {
+    display: flex;
+    justify-content: space-between;
+    button{
+        width: 100%;
+        border: none;
+    }
+}
+

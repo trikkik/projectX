@@ -1,0 +1,53 @@
+.main_wrapper {
+    grid-area: content;
+    background-color: #f2f2f2;
+    h2 {
+        margin-left: 350px;
+    }
+}
+.main_button {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 350px 80px 350px;
+    &_all {
+        background-color: #FFAC28;
+    }
+    button {
+        width: 119px;
+        height: 40px;
+        border-radius: 35px;
+        border: none;
+        cursor: pointer;
+        &:hover {
+            border: 1px solid #3A95FF;
+            color: #3A95FF;
+
+        }
+    }
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 350px 0 350px;
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+
+}
+.button {
+    &_more {
+    width: 242px;
+    height: 48px;
+    border: 1px solid #4877F2;
+    border-radius: 4px;
+    color: #4877F2;
+    cursor: pointer;
+    margin-bottom: 40px;
+    }
+    &_upload {
+        display: flex;
+        justify-content: center;
+    }
+}
